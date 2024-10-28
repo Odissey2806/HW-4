@@ -23,7 +23,7 @@ public class Main {
         }
 
         // Задача №3
-        int driversSpeed = 100;
+        int driversSpeed = 30;
         if (driversSpeed >60) {
             System.out.println("«Если скорость " + driversSpeed + ", то придется заплатить штраф».");
         } else {
@@ -31,7 +31,7 @@ public class Main {
         }
 
         // Задача №4
-        int personYears = 50;
+        int personYears = 55;
         if (personYears >= 2 && personYears <= 6){
             System.out.println("«Если возраст человека равен " + personYears + ", то ему нужно ходить в детский сад».");
         }
@@ -80,10 +80,6 @@ public class Main {
         } else if (three > one && three >two){
             System.out.println("Число " + three + " больше из трех значении!");
         }
-
-
-
-
 
 
         }
